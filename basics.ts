@@ -1,4 +1,9 @@
-function add(num1: number , num2: number, showResult: boolean, pharse: string){
+function add(
+    num1: number,
+    num2: number,
+    showResult: boolean,
+    pharse: string
+    ){
     const result = num1 + num2
 
     if(showResult){
